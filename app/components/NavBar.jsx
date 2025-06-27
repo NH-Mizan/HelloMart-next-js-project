@@ -4,7 +4,7 @@ export default function Navbar() {
             <div className="navbar w-11/12 mx-auto flex flex-col md:flex-row items-center gap-2 md:gap-0 py-2">
                 {/* Brand Logo */}
                 <div className="w-full md:w-3/12 text-center md:text-left">
-                    <h2 className="text-xl font-bold">Hellomart</h2>
+                    <a href="/"><h2 className="text-xl font-bold">Hellomart</h2></a>
                 </div>
 
                 {/* Search Area */}
