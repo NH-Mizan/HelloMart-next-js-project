@@ -29,17 +29,14 @@ export default function Banner() {
                 onClickThumb={onClickThumb}
                 className='h-[300px] '
             >
-                <div>
-                    <img src="/images/MART.png" alt="Slide 1" />
-                    <p className="legend">Legend 1</p>
+                <div className='h-full'>
+                    <img src="/images/banner/1.jpg" alt="Slide 1" />
                 </div>
-                <div>
-                    <img src="/images/a.png" alt="Slide 2" />
-                    <p className="legend">Legend 2</p>
+                <div className='h-full'>
+                    <img src="/images/banner/2.jpg" alt="Slide 2" />
                 </div>
-                <div>
+                <div className='h-[300px]'>
                     <img src="/images/aa.png" alt="Slide 3" />
-                    <p className="legend">Legend 3</p>
                 </div>
               
             </Carousel>
