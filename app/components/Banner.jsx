@@ -38,7 +38,7 @@ export default function Banner() {
                 <div className='h-[300px]'>
                     <img src="/images/aa.png" alt="Slide 3" />
                 </div>
-              
+
             </Carousel>
         </div>
     );
