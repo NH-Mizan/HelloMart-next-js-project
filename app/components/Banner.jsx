@@ -29,13 +29,13 @@ export default function Banner() {
                 onClickThumb={onClickThumb}
                 className='h-[300px] '
             >
-                <div className='h-full'>
+                <div className='h-[500px]'>
                     <img src="/images/banner/1.jpg" alt="Slide 1" />
                 </div>
-                <div className='h-full'>
+                <div className='h-[500px]'>
                     <img src="/images/banner/2.jpg" alt="Slide 2" />
                 </div>
-                <div className='h-[300px]'>
+                <div className='h-[500px] '>
                     <img src="/images/aa.png" alt="Slide 3" />
                 </div>
 
